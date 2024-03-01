@@ -6,7 +6,9 @@
 
 .grid{
     display: grid;
-    grid-template-columns: 33% 33% 33% ;
+     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+     grid-template-columns: repeat(4,1fr);
+    /* grid-template-columns: 33% 33% 33% ; */
     grid-template-rows: auto 200px;
     gap: 1em;
     /* column-gap: 1em; */
